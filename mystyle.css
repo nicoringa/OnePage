@@ -1,0 +1,129 @@
+html{
+	scroll-behavior: smoooth;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+}
+
+nav{
+	width: 100%;
+	background: black;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+li{
+	float: left;
+}
+
+a{
+	padding:40px;
+	width: 100px;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;;
+	font-weight: bold;
+
+}
+
+#section1{
+	height: 900px;
+	background-color: orange;
+	display: inline-block;
+	width: 100%
+}
+
+#section2{
+	height: 900px;
+	background-color:black;
+	display: inline-block;
+	width: 100%
+}
+
+#section3{
+	height: 900px;
+	background-color: orange;
+	display: inline-block;
+	width: 100%;
+	
+}
+
+h2{
+	margin: 100px;
+	text-align: center;
+	padding: 0;
+	color: #fff;
+}
+.contact-title{
+    margin-top: 100px;
+    color: #fff
+    text-transform uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact-title h2{
+    font-size: 16px;
+}
+form{
+    margin-top: 50px;
+    transition: all .4s;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px white;
+    color: #fff;
+    font-size: 18px;
+	margin-bottom: 16px;
+	
+}
+input{
+    height: 45px;
+}
+
+form.submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+	margin-top: 20px;
+	
+}
+
+form .submit hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+.contact-form{
+	text-align: center;
+	border: 2px solid;
+	border-color: black;
+}
+.nome{
+	border: 2px solid;
+	border-color: black;
+}
+.form-control submit{
+	cursor: pointer;
+}
